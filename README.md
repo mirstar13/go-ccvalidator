@@ -12,7 +12,7 @@ API_KEY="<YOUR_API_KEY>"
 BASE_URL="https://api.bintable.com/v1/"
 ```
  # ENDPOINTS
- ## GET http://localhost:8080/v1/validate ENDPOINT
+ ## GET /v1/validate ENDPOINT
 
  Checks if the given CC number is valid and returns BIN data if the account range (first 6 numbers) is found in the database
  
@@ -44,7 +44,7 @@ BASE_URL="https://api.bintable.com/v1/"
    }
  }
  ```
- ## GET http://localhost:8080/v1/accountrng ENDPOINT
+ ## GET /v1/accountrng ENDPOINT
 
  Returns all the BIN data of the account if the account range is found in the database
 
